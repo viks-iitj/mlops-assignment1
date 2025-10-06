@@ -1,0 +1,12 @@
+name: mlops-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - numpy
+  - scikit-learn
+  - joblib
+  - pip:
+    - -r requirements.txt
